@@ -44,10 +44,16 @@ let ourMembers = [
     },
     {
         name : "Barbara Ramos",
-        role : "graphic Designer",
+        role : "Graphic Designer",
         picture : 123
     }
 ]
 console.log(ourMembers);
 
-for ()
+for (i = 0; i < ourMembers.length ; i++) {
+    document.getElementById("container-cards").innerHTML += "<div class='flex-card'>" +"<h4>" + ourMembers[i].name + "</h4>" + "<p>" + ourMembers[i].role + "</p>";
+
+
+
+
+}
