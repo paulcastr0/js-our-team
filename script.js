@@ -15,6 +15,7 @@ Ragioniamo come sempre a step. Prima la logica in italiano e poi traduciamo in c
 E ricordiamoci che console.log() è nostro amico!
 */
 
+
 //Dichiaro Array membri del team
 let ourMembers = [
     {
