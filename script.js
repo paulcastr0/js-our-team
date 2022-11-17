@@ -21,38 +21,38 @@ let ourMembers = [
     {
         name : "Wayne Barnett",
         role : "Founder & CEO",
-        picture : 123
+        picture : "./img/wayne-barnett-founder-ceo.jpg"
     },
     {
         name : "Angela Caroll",
         role : "Chief Editor",
-        picture : 123
+        picture : "./img/wayne-barnett-founder-ceo.png"
     },
     {
         name : "Walter Gordon",
         role : "Office Manager",
-        picture : 123
+        picture : "./img/wayne-barnett-founder-ceo.png"
     },
     {
         name : "Angela Lopez",
         role : "social Media Manager",
-        picture : 123
+        picture : "./img/wayne-barnett-founder-ceo.png"
     },
     {
         name : "Scott Estrada",
         role : "Developer",
-        picture : 123
+        picture : "./img/wayne-barnett-founder-ceo.png"
     },
     {
         name : "Barbara Ramos",
         role : "Graphic Designer",
-        picture : 123
+        picture : "./img/wayne-barnett-founder-ceo.png"
     }
 ]
 console.log(ourMembers);
 
 for (i = 0; i < ourMembers.length ; i++) {
-    document.getElementById("container-cards").innerHTML += "<div class='flex-card'>" +"<h4>" + ourMembers[i].name + "</h4>" + "<p>" + ourMembers[i].role + "</p>";
+    document.getElementById("container-cards").innerHTML += "<div class='flex-card'>" + "<img src =" +  ourMembers[i].picture +">"  +"<h4>" + ourMembers[i].name + "</h4>" + "<p>" + ourMembers[i].role + "</p>";
 
 
 
